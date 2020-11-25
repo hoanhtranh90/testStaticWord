@@ -26,7 +26,13 @@
         </dependency>
 
 
-
+        <dependency>
+            <groupId>com.sample</groupId>
+            <artifactId>sample</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/aspose-words-20.11-jdk16.jar</systemPath>
+        </dependency>
 
 
         <dependency>
