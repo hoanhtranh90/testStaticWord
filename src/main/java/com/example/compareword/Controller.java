@@ -70,11 +70,11 @@ public class Controller {
         listString.put("fileName1",fileName1);
         listString.put("fileName2",fileName2);
         try {
-                Path path1 = Paths.get("src/main/resources/static/doc/" + fileName1);
+                Path path1 = Paths.get("src/main/resources/static/" + fileName1);
                 Files.copy(file1.getInputStream(), path1, StandardCopyOption.REPLACE_EXISTING);
 //                fileNames.add(path.toString());
 //                a += fileName + ',';
-                Path path2 = Paths.get("src/main/resources/static/doc/" + fileName2);
+                Path path2 = Paths.get("src/main/resources/static/" + fileName2);
                 Files.copy(file1.getInputStream(), path2, StandardCopyOption.REPLACE_EXISTING);
 
             } catch (IOException e) {
